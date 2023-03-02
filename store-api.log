@@ -1,0 +1,56 @@
+2023-03-02T16:55:08.818Z [store-api] info GET /animal
+2023-03-02T16:55:38.846Z [store-api] error DELETE  - relation "animals" does not exist
+2023-03-02T16:56:48.844Z [store-api] info GET /animal
+2023-03-02T16:56:55.354Z [store-api] info DELETE /animal
+2023-03-02T16:57:01.996Z [store-api] info GET /animal
+2023-03-02T16:57:10.259Z [store-api] info DELETE /animal
+2023-03-02T16:57:13.990Z [store-api] info DELETE /animal
+2023-03-02T16:57:59.382Z [store-api] info GET /animal
+2023-03-02T17:04:00.215Z [store-api] info GET /animal
+2023-03-02T17:04:55.247Z [store-api] info GET /animal
+2023-03-02T17:05:42.253Z [store-api] info GET /animal
+2023-03-02T17:06:08.132Z [store-api] info GET /animal
+2023-03-02T17:09:19.757Z [store-api] info GET /animal
+2023-03-02T17:09:56.421Z [store-api] info DELETE /animal
+2023-03-02T17:10:48.240Z [store-api] error POST  - Nome e telefone são obrigatórios.
+2023-03-02T17:10:59.186Z [store-api] info GET /proprietario
+2023-03-02T17:11:10.258Z [store-api] info GET /animal
+2023-03-02T17:16:03.144Z [store-api] info GET /animal
+2023-03-02T17:16:18.004Z [store-api] info GET /animal
+2023-03-02T17:16:22.175Z [store-api] info GET /animal
+2023-03-02T17:16:54.727Z [store-api] info GET /proprietario
+2023-03-02T17:17:10.307Z [store-api] info GET /animal
+2023-03-02T17:17:33.240Z [store-api] info GET /animal
+2023-03-02T17:17:40.551Z [store-api] info GET /animal
+2023-03-02T17:19:09.720Z [store-api] info GET /animal
+2023-03-02T17:19:36.836Z [store-api] info GET /animal
+2023-03-02T17:21:25.039Z [store-api] info GET /animal
+2023-03-02T17:21:43.930Z [store-api] info GET /proprietario
+2023-03-02T17:21:59.071Z [store-api] info GET /animal
+2023-03-02T17:22:10.445Z [store-api] error POST  - null value in column "proprietario_id" violates not-null constraint
+2023-03-02T17:25:18.507Z [store-api] error POST  - column "proprietarioid" of relation "animais" does not exist
+2023-03-02T17:26:08.243Z [store-api] error POST  - proprietario_id is not defined
+2023-03-02T17:26:49.823Z [store-api] error POST  - Nome, tipo e proprietario_id são obrigatórios.
+2023-03-02T17:28:15.845Z [store-api] error POST  - Nome, tipo e proprietario_id são obrigatórios.
+2023-03-02T17:28:54.505Z [store-api] info POST /animal - {"animal_id":14,"nome":"Totó","tipo":"Cachorro","proprietario_id":6}
+2023-03-02T17:29:18.875Z [store-api] info GET /animal
+2023-03-02T17:29:59.668Z [store-api] info GET /animal
+2023-03-02T17:30:27.228Z [store-api] info GET /animal
+2023-03-02T17:31:24.439Z [store-api] info GET /proprietario
+2023-03-02T17:41:30.675Z [store-api] info GET /animal
+2023-03-02T17:41:45.132Z [store-api] error DELETE  - Cannot access 'animal' before initialization
+2023-03-02T17:43:12.226Z [store-api] error DELETE  - Cannot access 'animal' before initialization
+2023-03-02T17:43:45.540Z [store-api] error DELETE  - animal is not defined
+2023-03-02T17:44:26.990Z [store-api] error DELETE  - animal is not defined
+2023-03-02T17:45:29.589Z [store-api] error DELETE  - O propretário não pode ser deletado porque ele possui animal
+2023-03-02T17:45:51.152Z [store-api] info GET /proprietario
+2023-03-02T17:46:23.822Z [store-api] info GET /animal
+2023-03-02T17:48:21.695Z [store-api] error GET  - invalid input syntax for integer: "animal_id=6"
+2023-03-02T17:48:49.000Z [store-api] info GET /proprietario
+2023-03-02T17:51:06.241Z [store-api] info GET /animal
+2023-03-02T17:51:21.973Z [store-api] info GET /proprietario
+2023-03-02T17:53:18.903Z [store-api] info GET /proprietario
+2023-03-02T17:53:59.130Z [store-api] info DELETE /animal
+2023-03-02T17:54:23.669Z [store-api] info GET /animal
+2023-03-02T18:02:04.872Z [store-api] info GET /animal
+2023-03-02T18:02:13.423Z [store-api] info GET /proprietario
